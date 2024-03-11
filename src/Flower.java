@@ -6,10 +6,17 @@ public abstract class Flower {
     protected double price;
     protected double neededArea;
     protected boolean voda;
-    protected int druhy = 5;
-    protected double chanceOfGrowth = 50;
+    protected double chanceOfGrowth;
 
     ArrayList<Flower> kytky = new ArrayList<>();
+
+    public Flower(String name, double price, double neededArea, boolean voda, double chanceOfGrowth) {
+        this.name = name;
+        this.price = price;
+        this.neededArea = neededArea;
+        this.voda = voda;
+        this.chanceOfGrowth = chanceOfGrowth;
+    }
 
     public boolean isVoda() {
         return voda;
