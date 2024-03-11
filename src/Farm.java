@@ -4,7 +4,7 @@ public class Farm extends Flower {
 
     ArrayList<Flower> flowers;
 
-    public void vyrostlaRostlina(Flower flower) {
+    public void rustRostliny(Flower flower) {
         for (Flower flower1 : flowers) {
             if (flower.voda = (true)) {
                 setChanceOfGrowth(60);
@@ -13,4 +13,5 @@ public class Farm extends Flower {
             }
         }
     }
+
 }
