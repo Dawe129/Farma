@@ -7,6 +7,7 @@ public abstract class Flower {
     protected double neededArea;
     protected boolean voda;
     protected double chanceOfGrowth;
+    protected boolean area;
 
     ArrayList<Flower> kytky = new ArrayList<>();
 
